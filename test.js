@@ -83,7 +83,7 @@ it('should check if brackets sequence is not correct 18', () => {
 });
 
 it('should check if brackets sequence is correct 19', () => {
-  assert.equal(check('([[[[(({{{}}}(([](((((((())))||||||))))[[{{|{{}}|}}[[[[]]]]{{{{{}}}}}]]))))]]]])(())', config7), true);
+  assert.equal(check('([[[[(({{{}}}(([]( ((((((())))||||||))))[[{{|{{}}|}}[[[[]]]]{{{{{}}}}}]]))))]]]])(())', config7), true);
 });
 
 it('should check if brackets sequence is correct 20', () => {
